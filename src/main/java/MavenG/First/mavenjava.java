@@ -31,7 +31,8 @@ public class mavenjava {
            driver.findElement(By.xpath("//input[@id='continue']")).click();
            driver.findElement(By.xpath("//button[@id='finish']")).click();
            driver.findElement(By.xpath("//button[@id='back-to-products']")).click();
-
+                driver.close();
+                driver.quit();
            
               
 	}
